@@ -1,0 +1,35 @@
+# tugas_pertemuan3
+
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char** argv) 
+
+{
+	cout<<"menampilkan deret bilangan"<<endl;
+	
+    int n, n1 = 0, n2 =1,jumlah =0;
+    cout << "masukan deret ke 8  : ";
+    cin >> n;
+    cout << "deret bilangan ke 8 adalah  : ";
+    
+    for (int i = 1; i <= n; i++) 
+	{
+        if(i == 1) {
+            cout << n1 << ", ";
+            continue;
+        }
+        if(i == 2) {
+            cout << n2 << ", ";
+            continue;
+        }
+        jumlah = n1 + n2;
+        n1 = n2;
+        n2 = jumlah;
+        
+        cout << jumlah << ", ";
+    }
+ 
+	return 0;
+}
