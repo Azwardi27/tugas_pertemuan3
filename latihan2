@@ -1,0 +1,26 @@
+#latihan2
+
+#include <iostream>
+
+/* latihan2 */
+
+using namespace std;
+
+int main(int argc, char** argv) 
+
+{
+	cout<<"latihan2"<<endl;
+	float c, k, f, r;
+	cout<<"Masukan Suhu (Celsius) : ";
+	cin>>c;
+	k=c+273.15;
+	f=(c*1.8)+32;
+	r=c*0.8;
+	cout<<endl;
+	cout<<"Hasil Konversi Suhu dari Celsius ke:"<<endl;
+	cout<<"Fahrenheit  : "<<f<<endl;
+	cout<<"celcius: "<<f<<endl;
+	cout<<"Reamur    : "<<r<<endl;
+	
+	return 0;
+}
